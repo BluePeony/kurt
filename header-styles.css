@@ -1,0 +1,193 @@
+body{
+	width: 80%;
+	margin: auto;
+}
+/*Mini-Header*/
+.mini-header{
+	display: none;
+	justify-content: center;
+	position: fixed;
+	top: 0;
+	left: 0;
+	right: 0;
+	color: #8B6969;
+	align-items: center;
+	font-size: 14px;
+	background: url("images/leaves_sprinkle_opacity.jpg");
+	width: 100%;
+	z-index: 100;
+
+}
+
+.mini-header.mini-header-vis {
+	display: flex;
+}
+
+.mini-header i {
+	color: #ff8547;
+}
+
+#mini-header-left {
+	position: relative;
+	left: -4%;
+}
+
+#mini-header-right{
+	position: relative;
+	left: 4%;
+}
+
+/*Main-Header*/
+.header-divs-and-nav {
+	color: #8B6969;	
+	font-family: 'Lora', serif;	
+	font-size:  16px;
+	padding-top: 20px;
+	/*color: #75625d;
+	color: #691F01;*/
+	/*font-family: 'Gentium Basic', serif; *//*SEHR GUT*/
+	/*font-family: 'Roboto', sans-serif;*/
+}
+.header-divs-all{
+	display: flex;
+	align-items: center;
+	margin-bottom: 30px;
+	justify-content: space-between;
+	/*font-family: 'Alegreya Sans', sans-serif;*/
+	/*font-family: 'Noto Serif', serif;*/
+	/*font-family: 'Fira Sans', sans-serif;*/
+	/*color: #66514c;
+	color: #664c51;*/
+}
+
+/*make all header-divs same width*/
+.header-div{
+	flex-basis: 100%;
+}
+
+.header-contact-data {
+	display: flex;
+	align-items: center;
+}
+
+#location{
+	/*justify-content: start;
+	margin-left: 30%;*/
+}
+
+#phone {
+	justify-content: start;
+	/*margin-left: 7%;*/
+}
+
+#mail {
+	justify-content: flex-end;
+	margin-top: 20px;
+}
+
+.icon {
+	margin-right: 10px;
+	color: #a5cb38;
+	font-size: 20px;
+}
+
+#logo {
+	position: relative;
+}
+
+#schneider-p {
+			color: #147749;
+			font-size: 47px;
+			font-family: 'Merriweather Sans', sans-serif;
+			margin-top: 0px;
+			margin-bottom: 0px;
+}
+#schneider-s{
+			font-family: 'Philosopher', sans-serif;
+			font-size: 110px;
+			font-weight: normal;
+}
+
+#schneider-rest{
+			letter-spacing: 3.5px;
+			font-weight: bold;
+}
+
+#gartenbau-p {
+			color: #73cc29;
+			font-family: 'Philosopher', sans-serif;
+			font-size: 21px;
+			font-weight: 600;
+}
+
+.gartenbau-div{
+			position: absolute;
+			top: 6px;
+			left: 58px;
+}
+
+.schneider-logo-div{
+	position: absolute;
+	top: 20px;
+	left: 340px;
+}
+
+#schneider-logo-img{
+	width: 75px;
+}
+
+#logo-image{
+	width: 400px;
+}
+.header-nav{
+	/*color: #5E2612;
+	color: #691F01;*/
+	color: #8B6969;
+	font-size: 16px;
+	font-weight: 600;
+	list-style: none;
+	text-align: center;
+	letter-spacing: 0.4px;
+	padding:15px 0px;
+	position: relative;
+	/*margin-top: 25px;*/
+}
+
+/*.header-nav.sticky-navigation {
+	position: fixed;
+	left: 0px;
+	top: 0;
+	width: 100%;
+	z-index: 100;
+}*/
+
+.header-nav::after{
+	content: "";
+	background: url("images/leaves_sprinkle_opacity.jpg");
+	position: absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
+	z-index: -1;
+	/*width: 80%;
+	margin-left: 10%;*/
+}
+
+.header-nav > li, .mini-header-nav > li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.nav-link{
+	color: #8B6969;
+	text-decoration: none;
+}
+.nav-link:hover{
+	border-bottom: 1px solid #ff8547;
+}
+
+.nav-link.nav-link-active{
+	border-bottom: 1px solid #ff8547;
+	color: #ff8547;
+}

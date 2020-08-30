@@ -1,0 +1,54 @@
+.referenzen-body {
+	background: #3a4b3b;
+}
+.referenzen-main{
+	width: 95%;
+	margin: auto;
+	position: relative;
+}
+.referenzen-icons:hover{
+	border-bottom: 0px;
+}
+#referenzen-close {
+	text-align: right;
+	font-size: 30px;
+}
+
+.referenzen-overlay{
+	display:flex;
+	align-items: center;
+	justify-content: center;
+	position: relative;
+	height: 400px;
+	margin-top: 100px;
+}
+
+.referenzen-arrow {
+	font-size: 35px;
+	position:absolute;
+}
+
+.referenzen-arrow-link:hover{
+	border-bottom: 0px;
+}
+
+#referenzen-left-arrow{
+	left: 0;
+}
+
+#referenzen-right-arrow{
+	left: 97%;
+}
+
+.referenzen-image{
+	border: 7px solid white;
+	border-radius: 3px;
+}
+
+#referenzen-text{
+	color: #a5cb38;
+	font-family: 'Roboto', sans-serif;
+	text-align: center;
+	margin-top: 25px;
+	font-size: 17px;
+}
