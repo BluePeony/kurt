@@ -17,16 +17,17 @@ footer {
 	display: flex;
 	align-items: flex-start;
 	padding-top: 60px;
+	justify-content: space-around;
 }
 
-
+/*
 #footer-contact-data{
 	padding-left: 30px;
 }
 
 #footer-google-maps{
 	margin-left: 70px;
-}
+}*/
 
 #footer-datenschutz-impressum{
 	margin-top: 85px;
