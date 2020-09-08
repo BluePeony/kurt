@@ -1,4 +1,6 @@
-$(function(){
+
+
+$(document).ready (function(){
 	//place the phone inforamtion and the mail information strictly below each other
 	var mail_icon_left = $("#mail-icon").offset().left;
 	var mail_address_left = $("#mail-address").offset().left;
