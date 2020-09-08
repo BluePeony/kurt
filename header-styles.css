@@ -143,8 +143,10 @@ body{
 	/*color: #5E2612;
 	color: #691F01;*/
 	color: #8B6969;
-	font-size: 16px;
-	font-weight: 600;
+	/*font-size: 16px;
+	font-weight: 600;*/
+	font-size: 17px;
+	font-weight: normal;
 	list-style: none;
 	text-align: center;
 	letter-spacing: 0.4px;
