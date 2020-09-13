@@ -273,5 +273,9 @@ a:hover{
 
 .cc-link{
 	text-decoration: none !important;
-	color: #ff8647 !important;
+	color: #a5cb38 !important;
+}
+
+.cc-link:hover, cc-link:focus{
+	color: #ff8547 !important;
 }
