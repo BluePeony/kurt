@@ -29,6 +29,16 @@ footer {
 	margin-left: 70px;
 }*/
 
+#footer-google-maps {
+	position: relative;
+}
+
+.open-street-link {
+	position: absolute;
+	top: 230px;
+	left: 10px;
+	color: #0078A8;
+}
 #footer-datenschutz-impressum{
 	margin-top: 40px;
 }
