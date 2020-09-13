@@ -13,6 +13,7 @@
 	<link rel="stylesheet" href="footer-styles.css">
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Nunito&family=PT+Sans&family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
 	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 	<script src="gartenbau_muenchen_script.js"></script> 
 </head>
@@ -130,15 +131,18 @@
 			</div>
 		</div>	
 	</main>
+	
 	<footer class="footer-all">
 			<div class="footer-all-divs">
 				<div class="footer-div" id="footer-contact-data">
-					Garten- und Landschaftsbau Schneider<br>
+					Garten- und Landschaftsbau<br>
+					Kurt Schneider<br>
 					Seehauser Strasse 19<br>
 					81379 München
 					<p>
 						Tel: (089) 714 52 15<br>
 						Mobil: (0171) 825 79 08<br>
+						Fax: (089) 717 62 10<br>
 						E-Mail: schneider@gartenbau-schneider.com
 					</p>
 					<p id="footer-datenschutz-impressum">
@@ -151,5 +155,30 @@
 				</div>
 		</div>
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+		window.cookieconsent.initialise({
+		  "palette": {
+		    "popup": {
+		      "background": "#efefef",
+		      "text": "#8B6969"
+		    },
+		    "button": {
+		      "background": "#a5cb38",
+		      "text": "#ffffff",
+		      "font-family": "Roboto"
+		    }
+		  },
+		  "theme": "classic",
+		  "position": "bottom-right",
+		  "content": {
+		    "message": "Diese Website verwendet Cookies, um sie möglichst benutzerfreundlich zu gestalten. Wenn Sie auf der Seite weitersurfen, stimmen Sie der Verwendung dieser Cookies zu.",
+		    "dismiss": "OK",
+		    "link": "Weitere Informationen",
+		    "href": "datenschutz.html"
+		  }
+		});
+	</script>
 </body>
 </html>

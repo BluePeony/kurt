@@ -258,3 +258,20 @@ a:hover{
 	cursor: pointer;
 	transform: scale(1.05);
 }
+
+/*Cookie Consent*/
+
+.cc-window {
+	font-family: 'Roboto', sans-serif !important;
+}
+.cc-floating .cc-message {
+	line-height: 1.7;
+}
+.cc-btn:hover, .cc-btn:focus{
+	background: #ff8547 !important;
+}
+
+.cc-link{
+	text-decoration: none !important;
+	color: #ff8647 !important;
+}

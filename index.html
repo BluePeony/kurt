@@ -15,8 +15,10 @@
 	<link href="https://fonts.googleapis.com/css2?family=Lora:wght@400;500&family=Nunito&family=PT+Sans&family=Roboto&display=swap" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css2?family=Philosopher:ital,wght@0,400;0,700;1,400;1,700&display=swap" rel="stylesheet"> 
 	<link href="https://fonts.googleapis.com/css2?family=Barlow:wght@500;600;700;800;900&family=Cabin:wght@500;600;700&family=Encode+Sans+Condensed:wght@500;600;700;800;900&family=Encode+Sans+Semi+Condensed:wght@500;600;700;800;900&family=Encode+Sans:wght@500;600;700&family=Fira+Sans:wght@500;600;700;800;900&family=Lato:wght@700;900&family=Merriweather+Sans:wght@500;600;700;800&family=Noto+Sans+JP:wght@500;700;900&family=Noto+Sans+SC:wght@500;700;900&family=Poppins:wght@600;700;800;900&family=Rubik:wght@500;600;700;800;900&family=Source+Sans+Pro:wght@600;700;900&display=swap" rel="stylesheet"> 
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.css" />
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>	
 	<script src="gartenbau_muenchen_script.js"></script> 
+
 </head>
 <body>
 	<!-- HEADER -->
@@ -164,12 +166,14 @@
 	<footer class="footer-all">
 			<div class="footer-all-divs">
 				<div class="footer-div" id="footer-contact-data">
-					Garten- und Landschaftsbau Schneider<br>
+					Garten- und Landschaftsbau<br>
+					Kurt Schneider<br>
 					Seehauser Strasse 19<br>
 					81379 München
 					<p>
 						Tel: (089) 714 52 15<br>
 						Mobil: (0171) 825 79 08<br>
+						Fax: (089) 717 62 10<br>
 						E-Mail: schneider@gartenbau-schneider.com
 					</p>
 					<p id="footer-datenschutz-impressum">
@@ -182,5 +186,30 @@
 				</div>
 		</div>
 	</footer>
+
+	<script src="https://cdn.jsdelivr.net/npm/cookieconsent@3/build/cookieconsent.min.js" data-cfasync="false"></script>
+	<script>
+		window.cookieconsent.initialise({
+		  "palette": {
+		    "popup": {
+		      "background": "#efefef",
+		      "text": "#8B6969"
+		    },
+		    "button": {
+		      "background": "#a5cb38",
+		      "text": "#ffffff",
+		      "font-family": "Roboto"
+		    }
+		  },
+		  "theme": "classic",
+		  "position": "bottom-right",
+		  "content": {
+		    "message": "Diese Website verwendet Cookies, um sie möglichst benutzerfreundlich zu gestalten. Wenn Sie auf der Seite weitersurfen, stimmen Sie der Verwendung dieser Cookies zu.",
+		    "dismiss": "OK",
+		    "link": "Weitere Informationen",
+		    "href": "datenschutz.html"
+		  }
+		});
+	</script>
 </body>
 </html>
