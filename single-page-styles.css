@@ -223,17 +223,17 @@ a:hover{
 	margin-top: 15%;
 }
 
-#overlay-langzeitpflege, #overlay-teichbau{
+#overlay-teichbau{
 	height: 66%;
 	margin-top: 17%;
 }
 
-#overlay-dachbegruenung, #overlay-holzarbeiten, #overlay-baumschnitt, #overlay-bewaesserung{
+#overlay-dachbegruenung, #overlay-holzarbeiten, #overlay-baumschnitt, #overlay-bewaesserung, #overlay-zaunarbeiten{
 	height: 56%;
 	margin-top: 22%;
 }
 
-#overlay-rasen-zaunarbeiten{
+#overlay-langzeitpflege{
 	height: 85%;
 	margin-top: 7.5%;
 }
