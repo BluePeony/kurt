@@ -193,3 +193,9 @@ body{
 	border-bottom: 1px solid #ff8547;
 	color: #ff8547;
 }
+
+@media (max-width: 420px) and (orientation: portrait) {
+	body {
+		transform: rotate(90deg);
+	}
+}
