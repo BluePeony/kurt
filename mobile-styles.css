@@ -46,6 +46,12 @@
 		column-count: 1;
 	}
 
+	/*Gartenmagazin*/
+
+	#gartenmagazin iframe {
+		height: 910px;
+	}
+
 	/*Footer*/
 	.footer-all {
 		margin-top: 0px;
