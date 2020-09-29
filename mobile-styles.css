@@ -37,6 +37,10 @@
 		margin-bottom: 45px;
 	}
 
+	#overlay-langzeitpflege {
+		font-size: 14px;
+	}
+
 	/*Referenzen*/
 	.referenzen-wrap {
 		column-count: 1;
