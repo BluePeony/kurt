@@ -63,4 +63,8 @@
 	#footer-google-maps iframe{
 		width: 85vw;
 	}
+
+	.open-street-link{
+		top: 215px;
+	}
 }
