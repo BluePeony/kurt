@@ -7,6 +7,7 @@
 		margin-right: auto;
 	}
 
+	/*Homepage*/
 	.hero-image-all {
 		height: auto;
 	}
@@ -16,12 +17,32 @@
 	}
 
 	.index-our-offer {
-		margin-top: 0px;
+		margin-top: 15px;
 	}
+
+	.index-our-offer h2 {
+		font-size: 22px;
+	}
+
 	.index-offer-all {
 		column-count: 1;
 	}
 
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 1;
+	}
+
+	.leistungen-single-div {
+		margin-bottom: 45px;
+	}
+
+	/*Referenzen*/
+	.referenzen-wrap {
+		column-count: 2;
+	}
+
+	/*Footer*/
 	.footer-all {
 		margin-top: 0px;
 		height: auto;
