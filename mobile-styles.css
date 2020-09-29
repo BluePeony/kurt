@@ -1,0 +1,45 @@
+/*Smartphone Hochformat*/
+
+@media (max-width: 414px) {
+	body {
+		width: 92%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+
+	.hero-image-all {
+		height: auto;
+	}
+
+	.hero-image-text p {
+		font-size: 25px;
+	}
+
+	.index-our-offer {
+		margin-top: 0px;
+	}
+	.index-offer-all {
+		column-count: 1;
+	}
+
+	.footer-all {
+		margin-top: 0px;
+		height: auto;
+	}
+	.footer-all-divs {
+		flex-direction: column;
+		padding-top: 10px;
+	}
+
+	#footer-contact-data {
+		margin-left: 15px;
+	}
+
+	#footer-google-maps{
+		margin: auto;
+	}
+
+	#footer-google-maps iframe{
+		width: 85vw;
+	}
+}
