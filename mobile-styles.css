@@ -46,10 +46,23 @@
 		column-count: 1;
 	}
 
+	.referenzen-image img{
+		width: 80vw;
+	}
+
 	/*Gartenmagazin*/
 
 	#gartenmagazin iframe {
 		height: 910px;
+	}
+
+	/*Kontakt*/
+	.kontakt-all{
+		flex-direction: column;
+	}
+
+	#kontakt-skizze{
+		margin: 20px 0px;
 	}
 
 	/*Footer*/
@@ -59,7 +72,7 @@
 	}
 	.footer-all-divs {
 		flex-direction: column;
-		padding-top: 10px;
+		padding-top: 15px;
 	}
 
 	#footer-contact-data {
