@@ -50,6 +50,30 @@
 		width: 80vw;
 	}
 
+	/*Partner*/
+
+	#partner-image-div {
+		height: 60vh;
+	}
+	#partner-image{
+		height: 55vh;
+	}
+
+	#partner-text {
+		font-size: 14px;
+		width: 80vw;
+		top: 16.5%;
+		margin-left: 6.5%;
+	}
+
+	#partner-text p {
+		padding-top: 0px;
+		padding-left: 25px;
+		padding-right: 25px;
+		text-align: justify;
+		padding-bottom: 0px;
+	}
+
 	/*Gartenmagazin*/
 
 	#gartenmagazin iframe {
