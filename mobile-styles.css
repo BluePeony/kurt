@@ -42,12 +42,39 @@
 	}
 
 	/*Referenzen*/
+	.referenzen-body {
+		width: 100vw;
+	}
+
 	.referenzen-wrap {
 		column-count: 1;
 	}
 
-	.referenzen-image img{
-		width: 80vw;
+	.referenzen-overlay {
+		margin-top: 0px;
+		justify-content: space-between;
+		height: 70vw;
+	}
+
+	.referenzen-arrow {
+		position: static;
+	}
+
+	.referenzen-image img {
+		width: 70vw;
+	}
+
+	.referenzen-arrow {
+		font-size: 25px;
+	}
+
+	#referenzen-close{
+		font-size: 25px;
+	}
+
+	#referenzen-text {
+		margin-top: 0px;
+		font-size: 16px;
 	}
 
 	/*Partner*/
