@@ -51,7 +51,7 @@ body{
 .header-divs-all{
 	display: flex;
 	align-items: center;
-	margin-bottom: 30px;
+	margin-bottom: 50px;
 	justify-content: space-between;
 	/*font-family: 'Alegreya Sans', sans-serif;*/
 	/*font-family: 'Noto Serif', serif;*/
@@ -136,9 +136,20 @@ body{
 	width: 75px;
 }
 
-#logo-image{
-	width: 400px;
+#logo-link:hover{
+	text-decoration: none;
+	border: none;
 }
+
+/*#logo-image{
+	width: 400px;
+}*/
+
+#logo-image{
+	width: 100%;
+	margin-top: 20px;
+}
+
 .header-nav{
 	/*color: #5E2612;
 	color: #691F01;*/

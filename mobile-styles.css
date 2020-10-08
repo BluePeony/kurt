@@ -7,6 +7,21 @@
 		margin-right: auto;
 	}
 
+	/*Header*/
+
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	.header-contact-data, #phone-mail {
+		display: none;
+	}
+
+	#logo-image{
+		width: 75vw;
+	}
+
+
 	/*Homepage*/
 	.hero-image-all {
 		height: auto;
