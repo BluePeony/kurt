@@ -8,7 +8,9 @@
 	}
 
 	/*Header*/
-
+	.header-divs-and-nav{
+		position: relative;
+	}
 	.mini-header.mini-header-vis{
 		display: none;
 	}
@@ -52,6 +54,16 @@
 
 	.header-nav.mobile-menu-vis{
 		display: block;
+		position: absolute;
+		top: 80%;
+		z-index: 1000;
+	}
+
+	.header-nav > li {
+		display: block;
+		margin-bottom: 15px;
+		text-align: left;
+		margin-left: 15px;
 	}
 
 
