@@ -30,3 +30,11 @@ $( document ).ready(function() {
 		};
 });
 
+$(document).ready(function() {
+	
+	//show-hide mobile menu
+	$(".mobile-menu-bars").click(function(){
+		$(".header-nav").toggleClass("mobile-menu-vis");
+	});
+});
+		

@@ -13,12 +13,45 @@
 		display: none;
 	}
 
-	.header-contact-data, #phone-mail {
+	.header-divs-all {
+		position: relative;
+	}
+
+	.header-contact-data{
 		display: none;
+	}
+
+	#phone-mail {
+		display: none;
+	}
+
+	.mobile-menu-bars {
+		display: block;
+		position: absolute;
+		top: 5%;
+	}
+
+	.mobile-menu-bars p{
+		color: #73cc29;
+		font-size: 27px;
+	}
+
+	.mobile-menu-bars p:hover{
+		cursor: pointer;
 	}
 
 	#logo-image{
 		width: 75vw;
+	}
+
+	/*Navigation*/
+
+	.header-nav {
+		display: none;
+	}
+
+	.header-nav.mobile-menu-vis{
+		display: block;
 	}
 
 
@@ -94,26 +127,34 @@
 
 	/*Partner*/
 
-	#partner-image-div {
+	/*#partner-image-div {
 		height: 60vh;
 	}
 	#partner-image{
 		height: 55vh;
 	}
+	*/
+
+	#partner-image-div {
+		display: none;
+	}
 
 	#partner-text {
+		position: static;
 		font-size: 14px;
+		line-height: 1.8;
+		margin-left: 0px;
+		margin-top: 15px;
 		width: 80vw;
-		top: 16.5%;
-		margin-left: 6.5%;
+		border: 20px solid transparent;
+		border-image: url("images/partner_bewaesserung.jpg") 50 stretch;
+
 	}
 
 	#partner-text p {
-		padding-top: 0px;
-		padding-left: 25px;
-		padding-right: 25px;
+		padding: 0px 25px;
 		text-align: justify;
-		padding-bottom: 0px;
+		border-radius: 10px;
 	}
 
 	/*Gartenmagazin*/
@@ -133,7 +174,7 @@
 
 	/*Footer*/
 	.footer-all {
-		margin-top: 0px;
+		margin-top: 50px;
 		height: auto;
 	}
 	.footer-all-divs {

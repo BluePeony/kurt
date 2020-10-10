@@ -91,6 +91,10 @@ body{
 	font-size: 20px;
 }
 
+.mobile-menu-bars {
+	display: none;
+}
+
 #logo {
 	position: relative;
 }
