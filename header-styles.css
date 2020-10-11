@@ -5,7 +5,7 @@ body{
 /*Mini-Header*/
 .mini-header{
 	display: none;
-	justify-content: center;
+	justify-content: space-around;
 	position: fixed;
 	top: 0;
 	left: 0;
@@ -27,7 +27,7 @@ body{
 	color: #ff8547;
 }
 
-#mini-header-left {
+/*#mini-header-left {
 	position: relative;
 	left: -4%;
 }
@@ -35,7 +35,7 @@ body{
 #mini-header-right{
 	position: relative;
 	left: 4%;
-}
+}*/
 
 /*Main-Header*/
 .header-divs-and-nav {
@@ -191,9 +191,18 @@ body{
 	margin-left: 10%;*/
 }
 
-.header-nav > li, .mini-header-nav > li {
+.mini-header-nav > li {
 	display: inline-block;
 	margin-right: 30px;
+}
+
+.header-nav {
+	display: flex;
+	justify-content: space-around;
+}
+
+.mini-header-nav > li {
+	list-style: none;
 }
 
 .nav-link{

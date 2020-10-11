@@ -8,8 +8,8 @@ $(document).ready (function(){
 	var phone_icon_offset = $("#phone-icon").offset();
 	var phone_number_offset = $("#phone-number").offset();
 
-	$("#phone-icon").offset({top: phone_icon_offset.top, left: mail_icon_left});
-	$("#phone-number").offset({top: phone_number_offset.top, left: mail_address_left});
+	//$("#phone-icon").offset({top: phone_icon_offset.top, left: mail_icon_left});
+	//$("#phone-number").offset({top: phone_number_offset.top, left: mail_address_left});
 });
 
 $( document ).ready(function() {

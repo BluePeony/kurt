@@ -9,14 +9,14 @@ footer {
 	/*width: 80%;
 	margin-left: 10%;*/
 	border-radius: 3px;
-	height: 370px;
+	height: auto;
 	margin-top: 50px;
 	margin-bottom: 10px;
 }
 .footer-all-divs{
 	display: flex;
 	align-items: flex-start;
-	padding-top: 60px;
+	padding-top: 50px;
 	justify-content: space-around;
 }
 

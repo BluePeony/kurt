@@ -1,6 +1,6 @@
 /*Smartphone Hochformat*/
 
-@media (max-width: 414px) {
+@media (max-width: 600px) {
 	body {
 		width: 92%;
 		margin-left: auto;
@@ -208,5 +208,125 @@
 
 	.open-street-link{
 		top: 215px;
+	}
+}
+
+/*Tablet Hochformat*/
+@media (min-width: 601px) and (max-width: 835px) {
+	body {
+		width: 90%;
+		margin: auto;
+
+	}
+
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	/*Header*/
+	#mail {
+		display: none;
+	}
+
+	/*Navigation Menu*/
+	.header-nav {
+		font-size: 13px;
+	}
+
+	/*Homepage*/
+	.hero-image-all {
+		height: auto;
+	}
+
+	.hero-image-text p {
+		font-size: 28px;
+	}
+
+	.index-our-offer {
+		margin-top: 25px;
+	}
+
+	.index-our-offer h2 {
+		font-size: 22px;
+	}
+
+	.index-offer-all {
+		column-count: 2;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 2;
+	}
+
+	.leistungen-single-div {
+		margin-bottom: 45px;
+	}
+
+	#overlay-gestaltung {
+		font-size: 15px;
+	}
+
+	#overlay-dachbegruenung{
+		margin-top: 28%;
+	}
+
+	#overlay-langzeitpflege {
+		font-size: 15px;
+		margin-top: 3%;
+	}
+
+	#overlay-bewaesserung {
+		margin-top: 25%;
+	}
+
+	/*Referenzen*/
+
+	.referenzen-wrap {
+		column-count: 2;
+	}
+
+	/*Partner*/
+
+	#partner {
+		height: 50vh;
+	}
+
+	#partner-text {
+		width: 60%;
+		top: 16%;
+	}
+
+	#partner-text p {
+		font-size: 15px;
+		padding: 5px 25px;
+	}
+
+	/*Kontakt*/
+
+	#kontakt-daten {
+		flex-basis: 60%;
+	}
+
+	#kontakt-skizze{
+		margin-left: 0px;
+	}
+
+	/*Footer*/
+
+	.footer-all {
+		height: auto;
+	}
+
+	.footer-all-divs {
+		padding-top: 30px;
+	}
+
+	#footer-google-maps iframe {
+		width: 100%;
+	}
+
+	.open-street-link {
+		top: 217px;
 	}
 }
