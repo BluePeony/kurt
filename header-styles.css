@@ -76,7 +76,7 @@ body{
 }
 
 #phone {
-	justify-content: start;
+	justify-content: flex-end;
 	/*margin-left: 7%;*/
 }
 
