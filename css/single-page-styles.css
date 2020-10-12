@@ -1,0 +1,281 @@
+.in-between{
+	background-image: url("images/leaves_sprinkle.jpg");
+	height: 70px;
+	width: 84%;
+	margin-left: 11%;
+	border-radius: 3px;
+}
+.single-page{
+	/*font-family: 'Alegreya Sans', sans-serif;*/
+	color: #8B6969;
+	font-family: 'Roboto', sans-serif;
+	font-size: 16px;
+	line-height: 1.6;
+	/*margin-left: 10%;*/
+	margin-top: 30px;
+	/*width: 80%;*/
+}
+
+h2, h4{
+	font-family: 'Lora', serif;
+}
+
+.main-content {
+	margin-top: 40px;
+}
+a{
+	color: #a5cb38;
+	text-decoration: none;
+}
+
+a:hover{
+	color:  #ff8547;
+	border-bottom: 1px solid #ff8547;
+}
+
+/*Index-Seite*/
+.hero-image-all {
+	height: 430px;
+	overflow: hidden;
+	position: relative;
+}
+.hero-image-img img{
+	width: 100%;
+	border-radius: 3px;
+}
+
+.hero-image-text{
+	position: absolute;
+	margin: 0;
+	top: 50%;
+	transform: translateY(-50%);
+	width: 100%;
+}
+
+.hero-image-text p {
+	color: white;
+	font-family: 'Lora', serif;
+	font-size: 40px;
+	text-align: center;
+	font-weight: 600;
+}
+
+.index-our-offer{
+	margin-top: 50px;
+}
+
+.index-offer-title{
+	text-align: center;
+	padding-bottom: 10px;
+}
+
+.index-our-offer h2{
+	border-bottom: 3px solid #ff8547;
+}
+
+.index-offer-all{
+	column-count: 3;
+	column-gap: 30px;
+	margin-top: 30px;
+}
+
+.index-offer-div{
+	border: 1px solid rgba(0, 0, 0, 0.12);
+	border-radius: 3px;
+	margin-bottom: 30px;
+}
+
+.index-offer-div h4 {
+	text-align: center;
+	color: #a5cb38;
+	font-size: 17px;
+}
+
+.index-offer-div p{
+	width: 90%;
+	margin-left: 5%;
+}
+
+#gartenmagazin{
+	width: 100%;
+}
+
+#gartenmagazin iframe{
+	height: 1500px;
+}
+
+/*Kontakt-Seite*/
+.kontakt-all {
+	display: flex;
+}
+
+#kontakt-skizze{
+	margin-left: 300px;
+}
+
+/*Partner-Seite*/
+
+#partner{
+	position: relative;
+}
+#partner > h2 {
+	display: inline;
+}
+
+#gardena-link{
+	position: absolute;
+	top: 8px;
+	text-decoration: none;
+}
+
+#gardena-logo{
+	width: 120px;
+	margin-left: 10px;
+}
+
+#partner-image-div{
+	border-radius: 3px;
+	height: 75vh;
+	width: 100%;
+	overflow: hidden;
+	margin-top: 25px;
+}
+
+#partner-image{
+	width: 100%;
+}
+
+#partner-text{
+	background: white;
+	border-radius: 10px;
+	position: absolute;
+	margin-left: 6%;
+	top: 25%;
+	line-height: 2;
+	width: 45%;
+}
+
+#partner-text p {
+	padding: 25px 45px;
+}
+/*Leistungen*/
+.leistungen-wrapper {
+	column-count: 3;
+	column-gap: 50px;
+}
+
+.leistungen-single-div{
+	position: relative;
+	height: 250px;
+	margin-bottom: 60px;
+}
+
+.leistungen-single-div:hover{
+	cursor: pointer;
+}
+
+.leistungen-image{
+	width: 100%;
+	height: 100%;
+	border-radius: 5px;
+}
+
+.leistungen-headline{
+	background: white;
+	font-family: 'Lora', serif;
+	font-size: 18px;
+	margin-left: 5%;
+	position: absolute;
+	top: 60%;
+	padding-top: 15px;
+	padding-bottom: 15px;
+	text-align: center;
+	width: 90%;
+	border-radius: 5px;
+}
+
+.leistungen-overlay{
+	position: absolute;
+	bottom: 10%;
+	left: 5%;
+	background: white;
+	overflow: hidden;
+	height: 80%;
+	width: 90%;
+	transform: scale(0);
+	transition: .3s ease;
+	border-radius: 5px;
+}
+
+.leistungen-single-div:hover .leistungen-overlay{
+	transform: scale(1);
+}
+
+.leistungen-overlay-text{
+	width: 80%;
+	margin-left: 10%;
+	text-align: center;
+	line-height: 1.7;
+}
+
+#overlay-gestaltung, #overlay-pflasterarbeiten{
+	height: 70%;
+	margin-top: 15%;
+}
+
+#overlay-teichbau{
+	height: 66%;
+	margin-top: 17%;
+}
+
+#overlay-dachbegruenung, #overlay-holzarbeiten, #overlay-baumschnitt, #overlay-bewaesserung, #overlay-zaunarbeiten{
+	height: 56%;
+	margin-top: 22%;
+}
+
+#overlay-langzeitpflege{
+	height: 85%;
+	margin-top: 7.5%;
+}
+
+/*Referenzen*/
+
+.referenzen-wrap {
+	column-count: 3;
+	column-gap: 25px;
+}
+.referenzen-wrap img{
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+	border-radius: 3px;
+	border: 5px solid white;
+	transition: 0.5s;
+}
+
+.referenzen-wrap img:hover{
+	/*border: 5px solid #ff8547;*/
+	cursor: pointer;
+	transform: scale(1.05);
+}
+
+/*Cookie Consent*/
+
+.cc-window {
+	font-family: 'Roboto', sans-serif !important;
+}
+.cc-floating .cc-message {
+	line-height: 1.7;
+}
+.cc-btn:hover, .cc-btn:focus{
+	background: #ff8547 !important;
+}
+
+.cc-link{
+	text-decoration: none !important;
+	color: #a5cb38 !important;
+}
+
+.cc-link:hover, cc-link:focus{
+	color: #ff8547 !important;
+}

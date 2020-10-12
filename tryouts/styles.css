@@ -1,0 +1,74 @@
+.header-divs-and-nav {
+	/*color: #75625d;
+	color: #691F01;*/
+	color: #8B6969;
+	font-family: 'Gentium Basic', serif; /*SEHR GUT*/
+	font-size:  19px;
+	margin-top: 20px;
+}
+.header-divs-all{
+	/*color: #66514c;
+	color: #664c51;*/
+	display: flex;
+	align-items: center;
+	/*font-family: 'Alegreya Sans', sans-serif;*/
+	/*font-family: 'Noto Serif', serif;*/
+	/*font-family: 'Fira Sans', sans-serif;*/
+}
+
+/*make all header-divs same width*/
+.header-div{
+	flex-basis: 100%;
+}
+
+.header-contact-data {
+	display: flex;
+	align-items: center;
+}
+
+#location{
+	justify-content: center;
+}
+
+#phone, #mail {
+	margin-left: 20%;
+}
+
+#mail {
+	margin-top: 20px;
+}
+
+.icon {
+	margin-right: 10px;
+	color: #a5cb38;
+	font-size: 20px;
+}
+
+#logo-image{
+	width: 400px;
+}
+
+.header-nav{
+	/*color: #5E2612;
+	color: #691F01;*/
+	color: #8B6969;
+	font-size: 18px;
+	font-weight: 600;
+	list-style: none;
+	text-align: center;
+	letter-spacing: 0.4px;
+	padding: 10px 0px;
+}
+
+.header-nav > li {
+	display: inline-block;
+	margin-right: 30px;
+}
+
+.nav-link{
+	color: #8B6969;
+	text-decoration: none;
+}
+.nav-link:hover{
+	border-bottom: 1px solid #8B6969;
+}
