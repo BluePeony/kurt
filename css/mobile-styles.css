@@ -151,7 +151,7 @@
 		margin-top: 15px;
 		width: 80vw;
 		border: 20px solid transparent;
-		border-image: url("images/partner_bewaesserung.jpg") 50 stretch;
+		border-image: url("../images/partner_bewaesserung.jpg") 50 stretch;
 
 	}
 
@@ -202,6 +202,127 @@
 		top: 215px;
 	}
 }
+
+/*Smartphone Querformat*/
+@media (max-width: 896px) and (orientation: landscape) {
+	body {
+		width: 93%;
+		margin: auto;
+	}
+
+	/*Header*/
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	#mail {
+		display: none;
+	}
+
+	.header-contact-data {
+		font-size: 14px;
+	}
+
+	.icon {
+		font-size: 18px;
+	}
+
+	#logo {
+		flex-basis: 40%;
+	}
+
+	.header-divs-all {
+		margin-bottom: 30px;
+	}
+
+	/*Haupt-Navigation*/
+	.header-nav {
+		font-size: 14px;
+	}
+
+	/*Footer*/
+	.footer-all {
+		height: auto;
+	}
+
+	.footer-all-divs {
+		padding-top: 30px;
+	}
+
+	#footer-google-maps iframe {
+		width: 100%;
+	}
+
+	.open-street-link {
+		top: 217px;
+	}
+
+	/*All pages*/
+	.main-content {
+		margin-top: 20px;
+	}
+
+	/*Homepage*/
+	.hero-image-all {
+		height: 292px;
+	}
+
+	.hero-image-text p {
+		font-size: 29px;
+	}
+
+	.index-offer-all {
+		column-count: 2;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 2;
+	}
+
+	/*Referenzen*/
+	.referenzen-wrap {
+		column-count: 2;
+	}
+
+	/*Partner*/
+	#partner-image-div {
+		display: none;
+	}
+
+	#partner-text {
+		position: static;
+		font-size: 15px;
+		line-height: 1.8;
+		margin-left: 0px;
+		margin-top: 15px;
+		width: 80vw;
+		border: 25px solid transparent;
+		border-image: url("../images/partner_bewaesserung.jpg") 25 stretch;
+
+	}
+
+	#partner-text p {
+		padding: 0px 25px;
+		text-align: justify;
+		border-radius: 10px;
+	}
+
+	/*Kontakt*/
+
+	#kontakt-daten {
+		flex-basis: 60%;
+	}
+
+	#kontakt-skizze{
+		margin-left: 0px;
+	}
+
+	#kontakt-skizze img {
+		width: 250px;
+	}
+}
+
 
 /*Tablet Hochformat*/
 @media (min-width: 601px) and (max-width: 835px) and (orientation: portrait){
