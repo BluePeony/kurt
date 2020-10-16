@@ -280,6 +280,27 @@
 		column-count: 2;
 	}
 
+	.leistungen-headline {
+		font-size: 16px;
+	}
+
+	.leistungen-overlay {
+		font-size: 15px;
+	}
+
+	#overlay-langzeitpflege {
+		font-size: 14px;
+		line-height: 1.6;
+	}
+
+	#overlay-dachbegruenung, #overlay-bewaesserung {
+		margin-top: 30%;
+	}
+
+	#overlay-teichbau {
+		margin-top: 19%;
+	}
+
 	/*Referenzen*/
 	.referenzen-wrap {
 		column-count: 2;
