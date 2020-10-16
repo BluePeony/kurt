@@ -285,6 +285,32 @@
 		column-count: 2;
 	}
 
+	.referenzen-overlay {
+		margin-top: 0px;
+		justify-content: space-between;
+	}
+
+	.referenzen-arrow {
+		position: static;
+	}
+
+	.referenzen-image img {
+		width: 70vw;
+	}
+
+	.referenzen-arrow {
+		font-size: 30px;
+	}
+
+	#referenzen-close{
+		font-size: 25px;
+	}
+
+	#referenzen-text {
+		margin-top: 20px;
+		font-size: 16px;
+	}
+
 	/*Partner*/
 	#partner-image-div {
 		display: none;
