@@ -497,3 +497,81 @@
 		top: 217px;
 	}
 }
+
+/*Tablet Querformat*/
+@media (min-width: 897px) and (max-width: 1280px) and (orientation: landscape) {
+	body {
+		width: 90%;
+		margin: auto;
+	}
+
+	/*Header*/
+	.mini-header.mini-header-vis{
+		display: none;
+	}
+
+	.header-divs-and-nav {
+		font-size: 15px;
+	}
+
+	.hero-image-all {
+		height: auto;
+	}
+
+	.icon {
+		font-size: 18px;
+	}
+
+	/*Footer*/
+	.footer-all {
+		height: auto;
+	}
+
+	.footer-all-divs {
+		padding-top: 30px;
+	}
+
+	#footer-google-maps {
+		flex-basis: 55%;
+	}
+
+	#footer-google-maps iframe {
+		width: 100%;
+	}
+
+	.open-street-link {
+		top: 217px;
+	}
+
+	/*Homepage*/
+	.hero-image-text p {
+		font-size: 35px;
+	}
+
+	.index-offer-all {
+		column-count: 2;
+	}
+
+	/*Leistungen*/
+	.leistungen-wrapper {
+		column-count: 2;
+	}
+
+	/*Partner*/
+	#partner-text {
+		top: 23%;
+		width: 50%;
+	}
+
+	#partner-text p {
+		padding: 5px 20px;
+	}
+
+	/*Kontakt*/
+	#kontakt-daten {
+		flex-basis: 60%;
+	}
+	#kontakt-skizze {
+		margin-left: 0px;
+	}
+}
