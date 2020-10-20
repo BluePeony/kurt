@@ -558,8 +558,14 @@
 	}
 
 	/*Referenzen*/
-	.referenzen-overlay {
-		margin-top: 0px;
+
+
+	.referenzen-image img {
+		width: 65vw;
+	}
+
+	#referenzen-text {
+		margin-top: 100px;
 	}
 
 	/*Partner*/
