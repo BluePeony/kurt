@@ -557,6 +557,11 @@
 		column-count: 2;
 	}
 
+	/*Referenzen*/
+	.referenzen-overlay {
+		margin-top: 0px;
+	}
+
 	/*Partner*/
 	#partner-text {
 		top: 23%;
