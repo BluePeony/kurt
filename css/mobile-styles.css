@@ -237,7 +237,7 @@
 
 	/*Haupt-Navigation*/
 	.header-nav {
-		font-size: 14px;
+		font-size: 13px;
 	}
 
 	/*Footer*/
@@ -247,6 +247,8 @@
 
 	.footer-all-divs {
 		padding-top: 30px;
+		padding-left:10px;
+		padding-right: 10px;
 	}
 
 	#footer-google-maps iframe {
@@ -293,13 +295,13 @@
 		line-height: 1.6;
 	}
 
-	#overlay-dachbegruenung, #overlay-bewaesserung {
+	/*#overlay-dachbegruenung, #overlay-bewaesserung {
 		margin-top: 30%;
 	}
 
 	#overlay-teichbau {
 		margin-top: 19%;
-	}
+	}*/
 
 	/*Referenzen*/
 	.referenzen-wrap {
@@ -432,7 +434,7 @@
 		font-size: 15px;
 	}
 
-	#overlay-dachbegruenung{
+	/*#overlay-dachbegruenung{
 		margin-top: 28%;
 	}
 
@@ -443,7 +445,7 @@
 
 	#overlay-bewaesserung {
 		margin-top: 25%;
-	}
+	}*/
 
 	/*Referenzen*/
 

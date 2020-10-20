@@ -217,11 +217,16 @@ a:hover{
 
 .leistungen-overlay-text{
 	width: 80%;
-	margin-left: 10%;
+	/*margin-left: 10%;*/
 	text-align: center;
 	line-height: 1.7;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
 }
 
+/*
 #overlay-gestaltung, #overlay-pflasterarbeiten{
 	height: 70%;
 	margin-top: 15%;
@@ -240,7 +245,7 @@ a:hover{
 #overlay-langzeitpflege{
 	height: 85%;
 	margin-top: 7.5%;
-}
+}*/
 
 /*Referenzen*/
 
